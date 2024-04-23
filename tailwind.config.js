@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#0D9276",
-        secondary: "#BBE2EC",
-        tertiary: "#FFF6E9",
-        quaternary: "#40A2E3",
+        primary: "#388E3C",
+        secondary: "#8BC34A",
+        tertiary: "#DDEEDF",
+        quaternary: "#F2F9F1",
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],

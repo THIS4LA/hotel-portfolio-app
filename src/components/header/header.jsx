@@ -51,14 +51,14 @@ const Header = () => {
               <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
                 <a
                   href="/#"
-                  className="px-7 py-3 text-base font-medium text-dark hover:text-primary dark:text-white"
+                  className="px-7 py-3 text-base font-medium text-dark hover:text-secondary dark:text-white"
                 >
                   Sign in
                 </a>
   
                 <a
                   href="/#"
-                  className="rounded-lg bg-tertiary px-7 py-3 text-base font-medium text-primary hover:bg-opacity-90"
+                  className="rounded-lg bg-tertiary px-7 py-3 text-base font-medium text-gray-950 hover:bg-opacity-90 hover:text-primary"
                 >
                   Sign Up
                 </a>
@@ -76,7 +76,7 @@ const Header = () => {
         <li>
           <a
             href={NavLink}
-            className="flex py-2 text-base font-medium text-dark hover:text-primary dark:text-white lg:ml-10 lg:inline-flex"
+            className="flex py-2 text-base font-medium text-dark hover:text-secondary dark:text-white lg:ml-10 lg:inline-flex"
           >
             {children}
           </a>
