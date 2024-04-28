@@ -15,7 +15,7 @@ module.exports = {
         mono: ["ui-monospace", "SFMono-Regular"],
         display: ["Oswald", "Oswald"],
         body: ["Open Sans"]
-      }
+      },
     },
   },
   plugins: [],
