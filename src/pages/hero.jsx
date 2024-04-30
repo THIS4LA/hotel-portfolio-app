@@ -4,9 +4,15 @@ import BgVideo from "./../assets/video1.mp4";
 
 const Hero = () => {
   return (
-    <div className="absolute top-0 -z-10">
-      <div className="w-full h-full bg-cover opacity-40">
-        <video autoPlay muted loop id="myVideo">
+    <div className="top-0 -z-10 absolute">
+      <div className="relative w-screen h-screen">
+        <video
+          className="w-full h-full object-cover opacity-40"
+          autoPlay
+          muted
+          loop
+          id="myVideo"
+        >
           <source src={BgVideo} type="video/mp4" />
         </video>
       </div>
