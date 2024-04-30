@@ -4,7 +4,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="">
+    <header className="z-auto shadow-lg">
       <div className="bg-primary px-9">
         <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-60 max-w-full px-4">
