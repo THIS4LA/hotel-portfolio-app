@@ -1,13 +1,13 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import BgVideo from "./../assets/video1.mp4";
+import BgVideo from "./../assets/video2.mp4";
 
 const Hero = () => {
   return (
-    <div className="top-0 -z-10 absolute">
-      <div className="relative w-screen h-screen">
+    <div>
+      <div className="w-screen h-screen">
         <video
-          className="w-full h-full object-cover opacity-40"
+          className="w-full h-full object-cover absolute top-0 -z-20"
           autoPlay
           muted
           loop
@@ -17,9 +17,9 @@ const Hero = () => {
         </video>
       </div>
       <div className="absolute top-0 w-full h-full justify-center items-center">
-        <div className="text-primary">
+        <div className="text-quaternary">
           <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-            <p className="text-primary font-bold p-2">
+            <p className="font-bold p-2">
               Growind With Data Analytics
             </p>
             <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
