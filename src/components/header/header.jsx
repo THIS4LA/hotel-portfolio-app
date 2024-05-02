@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <header className="">
-      <div className="bg-primary px-9 relative z-20 top-0 absolute">
+      <div className="bg-primary px-9 z-20 top-0 absolute relative">
         <div className="-mx-4 flex items-center justify-between">
           <div className="w-60 max-w-full px-4">
             <a href="/" className="block w-full py-5">
@@ -37,7 +37,7 @@ const Header = () => {
                   <ListItem NavLink="/#">Home</ListItem>
                   <ListItem NavLink="#about">About Us</ListItem>
                   <ListItem NavLink="/#">Testomonials</ListItem>
-                  <ListItem NavLink="/#">Contact Us</ListItem>
+                  <ListItem NavLink="#contactus">Contact Us</ListItem>
                 </ul>
               </nav>
             </div>
