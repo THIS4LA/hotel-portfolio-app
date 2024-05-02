@@ -1,4 +1,7 @@
 import React from "react";
+import pic1 from './../assets/aboutUs.png'
+import pic2 from './../assets/aboutUs2.jpg'
+import pic3 from './../assets/aboutUs4.jpg' 
 
 const About = () => {
   return (
@@ -10,15 +13,15 @@ const About = () => {
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
-                    <img id="about" 
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                    <img id="about"
+                      src={pic1}
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      src={pic2}
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -27,7 +30,7 @@ const About = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                     <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                      src={pic3}
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -48,21 +51,19 @@ const About = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-lg font-semibold text-primary">
-                  Why Choose Us
+                <span className="block mb-4 text-[50px] font-semibold text-primary">
+                Why Choose Us?
                 </span>
-                <h2 className="mb-5 text-3xl font-bold text-black dark:text-secondary sm:text-[40px]/[48px]">
-                  Make your customers happy by giving services.
+                <h2 className="mb-5 text-3xl font-bold text-black dark:text-secondary sm:text-[20px]">
+                Choose us for unparalleled choice, convenience, and confidence in your dining and lodging experiences
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6 font-sans">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less.
+                Gain access to an extensive database of top-rated restaurants and hotels,
+                ensuring there's something to suit every taste and budget
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6 font-sans">
-                  A domain name is one of the first steps to establishing your
-                  brand. Secure a consistent brand image with a domain name that
-                  matches your business.
+                Rely on our curated selection of establishments, vetted for quality and
+                excellence by seasoned experts and discerning users alike.
                 </p>
               </div>
             </div>

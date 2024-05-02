@@ -4,12 +4,15 @@ import Hero from './pages/hero';
 import About from './pages/about';
 import Footer from './components/footer/footer';
 import Contact from './pages/contact';
-import Signin from './pages/signIn';
 
 function App() {
   return (
     <div>
-      <Signin />
+      <Header />
+      <Hero />
+      <About />
+      <Contact />
+      <Footer />
     </div>
   );
 }

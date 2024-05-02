@@ -1,7 +1,7 @@
 import React from "react";
 import logo from './../assets/logo-primary.png';
 
-const Signin = () => {
+const SignIn = () => {
   return (
     <section className="bg-gray-1 py-20 dark:bg-dark lg:py-[120px]">
       <div className="container mx-auto">
@@ -57,7 +57,7 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default SignIn;
 
 const InputBox = ({ type, placeholder, name }) => {
   return (

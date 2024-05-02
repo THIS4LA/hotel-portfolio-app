@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import logo from "./../../assets/logo-white.png";
 
 const Header = () => {
@@ -34,23 +35,29 @@ const Header = () => {
                 } `}
               >
                 <ul className="block lg:flex">
-                  <ListItem NavLink="/#">Home</ListItem>
-                  <ListItem NavLink="#about">About Us</ListItem>
-                  <ListItem NavLink="/#">Testomonials</ListItem>
-                  <ListItem NavLink="#contactus">Contact Us</ListItem>
+                  <ListItem NavLink="/home">Home</ListItem>
+                  <AnchorLink offset={20} href="#about"><ListItem >About Us</ListItem></AnchorLink>
+                  <AnchorLink offset={20} href="#contactus"><ListItem >Contact Us</ListItem></AnchorLink>
                 </ul>
               </nav>
             </div>
+            <form className="py-2">
+              <input type='text' placeholder="Search Destination" className="w-50 p-2 rounded-md active:border-teal-50"></input>
+              <button className="bg-tertiary p-2 rounded-md">Search</button>
+            </form>
+
+
             <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
               <a
-                href="/#"
+                
+                href="/signin"
                 className="px-7 py-3 text-base font-medium text-dark hover:text-secondary dark:text-white"
               >
                 Sign in
               </a>
 
               <a
-                href="/#"
+                href="/signup"
                 className="rounded-lg bg-tertiary px-7 py-3 text-base font-medium text-gray-950 hover:bg-opacity-90 hover:text-primary"
               >
                 Sign Up
